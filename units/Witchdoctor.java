@@ -1,5 +1,15 @@
+package units;
+
 public class Witchdoctor extends Witch{
-    public Witchdoctor(String name, int hp, int damage, int step, int mana) {
-        super(name, hp, damage, step, mana);
+    public Witchdoctor(String name)
+    {
+        super(name, 10, new int[]{-1,-5}, 2, 100);
     }
+
+    @Override
+    public void step() {
+
+    }
+
+
 }
