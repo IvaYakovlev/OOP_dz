@@ -5,8 +5,4 @@ public class Rogue extends Infantry{
         super(name, 10, new int[]{2,4}, 5, 2, x, y, numberTeam, 7);
     }
 
-
-    @Override
-    public void step(ArrayList<Person> teamProtivnic, ArrayList<Person> team) {
-    }
 }

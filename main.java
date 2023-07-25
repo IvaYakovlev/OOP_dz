@@ -35,10 +35,10 @@ public class Main {
             }
             in.nextLine();
         }
+        View.view();
         if (isNotLooser(team1)) System.out.print("Green side win!");
         else System.out.print("Blue side win!");
     }
-
     private static String getName(){
         String s = String.valueOf(Names.values()[new Random().nextInt(Names.values().length)]);
         return s;
