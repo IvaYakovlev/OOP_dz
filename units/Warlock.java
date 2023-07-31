@@ -1,4 +1,4 @@
- package Game.units;
+package Game.units;
 
 import java.util.ArrayList;
 
@@ -10,10 +10,13 @@ public class Warlock extends Witch{
 
 
     @Override
+
     public void step(ArrayList<Person> teamProtivnic, ArrayList<Person> team) {
         if(mana <= 0) return;
         super.findeDamagePerson(teamProtivnic).getDamage(damage[0]);
         mana -= damage[0];
 
+
     }
+
 }

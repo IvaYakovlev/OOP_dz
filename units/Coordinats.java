@@ -1,15 +1,19 @@
 package Game.units;
+
 public  class Coordinats {
     int x;
     int y;
+
     public Coordinats(int x, int y) {
         this.x = x;
         this.y = y;
     }
+
     @Override
     public String toString() {
         return "x: "+x+" y: "+y;
     }
+
     public int[] toArray() {
         return new int[]{x, y};
     }
@@ -34,4 +38,3 @@ public  class Coordinats {
     }
 
 }
-

@@ -1,7 +1,11 @@
-                                             package Game.Views;
+package Game.Views;
+
 import Game.main.Main;
+
+
 import java.util.Collections;
 public class View {
+
     private static int step = 1;
     private static final int[] l = {0};
     private static final String top10 = formatDiv("a") + String.join("", Collections.nCopies(9, formatDiv("-b"))) + formatDiv("-c");
@@ -61,6 +65,7 @@ public class View {
         tabSetter(Main.team1.get(0).getInfo().length(), l[0]);
         System.out.println(Main.team2.get(0).getInfo());
         System.out.println(midl10);
+
         for (int i = 2; i < 10; i++) {
             for (int j = 1; j < 11; j++) {
                 System.out.print(getChar(i, j));
